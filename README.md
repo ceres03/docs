@@ -100,6 +100,6 @@ git clone git@github.com:ceres03/backend.git
 
 ## 📝Licença
 
-Esse projeto usa a licença [MIT](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
-
 Organização ©ceres, 2024. Todos os direitos reservados.
+
+Esse projeto usa a licença [MIT](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
