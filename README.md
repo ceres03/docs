@@ -24,7 +24,7 @@
     </a>
 </div>
 
-## Sumário
+<h2 align="center">Sumário</h2>
 
 <p align="center">
     <a href="#sobre">Sobre</a> •
