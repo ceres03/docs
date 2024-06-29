@@ -56,7 +56,7 @@
     </p>
 </div>
 
-## Contribuições:
+## 🤝Contribuições:
 
 ### Documentação:
 
@@ -76,7 +76,7 @@ git clone git@github.com:ceres03/frontend.git
 git clone git@github.com:ceres03/backend.git
 ```
 
-## Membros
+## ❤️Membros
 
 <div>
     <p align="center">
