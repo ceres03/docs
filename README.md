@@ -3,8 +3,7 @@
     Projeto Ceres
 </h1>
 
-<div>
-    <p align="center">
+<div align="center">
     <a href="https://www.typescriptlang.org/">
         <img src="https://img.shields.io/static/v1?label=Linguagem&message=Typescript&color=blue&style=for-the-badge&logo=Typescript" alt="Linguagem: Typescript">
     </a>
@@ -23,7 +22,6 @@
      <a href="https://www.mysql.com/">
 		<img src="https://img.shields.io/badge/MySQL-005C84?label=Banco de Dados&color=darkgray&style=for-the-badge&logo=mysql&logoColor=white"  alt="Banco de Dados: Mysql">
     </a>
-    </p>
 </div>
 
 ## Sumário
