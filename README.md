@@ -8,7 +8,7 @@
         <img src="https://img.shields.io/static/v1?label=Linguagem&message=Typescript&color=blue&style=for-the-badge&logo=Typescript" alt="Linguagem: Typescript">
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-        <img src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript" alt="Language: Javascript">
+        <img src="https://img.shields.io/static/v1?label=Linguagem&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript" alt="Linguagem: Javascript">
     </a>
     <a href="https://www.java.com/">
 		<img  src="https://img.shields.io/static/v1?label=Linguagem&message=Java&color=red&style=for-the-badge&logo=openjdk"  alt="Linguagem: Java">
