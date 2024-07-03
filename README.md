@@ -29,6 +29,7 @@
 <p align="center">
     <a href="#sobre">Sobre</a> •
     <a href="#objetivos">Objetivos</a> •
+    <a href="#banco-de-dados">Banco De Dados</a> •
     <a href="#contribuições">Contribuições</a> •
     <a href="#membros">Membros</a> •
     <a href="#licença">Licença</a>
@@ -56,7 +57,7 @@
     </p>
 </div>
 
-## 🗃️Banco de Dados
+## 🗃Banco de Dados
 
 ### Tabela: tb_produtos
 
@@ -92,22 +93,22 @@
 ### Documentação:
 
 ```
-git clone git@github.com:ceres03/docs.git
+git clone https://github.com/ceres03/docs.git
 ```
 
 ### Frontend:
 
 ```
-git clone git@github.com:ceres03/frontend.git
+git clone https://github.com/ceres03/frontend.git
 ```
 
 ### Backend:
 
 ```
-git clone git@github.com:ceres03/backend.git
+git clone https://github.com/ceres03/backend.git
 ```
 
-## ❤️Membros
+## ❤Membros
 
 <div>
     <p align="center">
