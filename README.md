@@ -61,32 +61,34 @@
 
 ### Tabela: tb_produtos
 
-| Atributo | Descrição e motivo da escolha | Chave |
-| :-: | :-: | :-: |
-| id BIGINT | Identificador único de cada produto para registro de cada produto. | PK AI |
-| nome VARCHAR(255) | Nome do produto, para identificar e descrever o produto anunciado. | NN |
-| preco DECIMAL(10,2) | Preço do produto para identificar o seu valor agregado. | NN |
-| quantidade INT | Quantidade de produtos disponíveis para gestão do estoque. | NN |
-| imagem VARCHAR(255) | Script para carregar a imagem do produto e identificar o produto visualmente. | NN |
-| categorias_id BIGINT | Foreign key para conectar a tabela categorias. | FK |
+|        Atributo        |                               Descrição e motivo da escolha                                | Chave |
+| :--------------------: | :----------------------------------------------------------------------------------------: | :---: |
+|       id BIGINT        |             Identificador único de cada produto para registro de cada produto.             | PK AI |
+|   nome VARCHAR(255)    |             Nome do produto, para identificar e descrever o produto anunciado.             |  NN   |
+|  preco DECIMAL(10,2)   |                  Preço do produto para identificar o seu valor agregado.                   |  NN   |
+|     quantidade INT     |                 Quantidade de produtos disponíveis para gestão do estoque.                 |  NN   |
+| descricao VARCHAR(255) | Nome da descrição para determinar quais são os detalhes do produto que está sendo vendido. |  NN   |
+|  imagem VARCHAR(255)   |         Url para carregar a imagem do produto e identificar o produto visualmente.         |  NN   |
+|  categorias_id BIGINT  |                       Foreign key para conectar a tabela categorias.                       |  FK   |
+|   usuarios_id BIGINT   |                        Foreign key para conectar a tabela usuários.                        |  FK   |
 
 ### Tabela: tb_usuarios
 
-| Atributo | Descrição e motivo da escolha | Chave |
-| :-: | :-: | :-: |
-| id BIGINT | Identificador do usuário para registro de cada usuário. | PK AI |
-| nome VARCHAR(255) | Registro do nome e identificar o nome do usuário. | NN |
-| email VARCHAR(255) | Para atribuir o email e possibilitar o acesso do usuário a plataforma. | NN |
-| senha VARCHAR(255) | Para criar uma senha e possibilitar o acesso do usuário a plataforma. | NN |
-| foto VARCHAR(255) | Para identificar e visualizarmos a foto do usuário. | NN |
+|      Atributo      |                      Descrição e motivo da escolha                      | Chave |
+| :----------------: | :---------------------------------------------------------------------: | :---: |
+|     id BIGINT      |        Identificador do usuário para registro de cada produtor.         | PK AI |
+| nome VARCHAR(255)  |           Registro do nome e identificar o nome do produtor.            |  NN   |
+| email VARCHAR(255) | Para atribuir o email e possibilitar o acesso do produtor a plataforma. |  NN   |
+| senha VARCHAR(255) | Para criar uma senha e possibilitar o acesso do produtor a plataforma.  |  NN   |
+| foto VARCHAR(255)  |          Para identificar e visualizarmos a foto do produtor.           |  NN   |
 
 ### Tabela: tb_categorias
 
-| Atributo | Descrição e motivo da escolha | Chave |
-| :-: | :-: | :-: |
-| Id BIGINT | Identificador único de cada categoria para registro de cada categoria. | PK AI |
-| nome VARCHAR(255) | Nome da categoria para identificar o nome da categoria em que o produto está relacionado. | NN |
-| produtor VARCHAR(255) | Nome do produtor para determinar quem é o produtor que está vendendo o produto. | NN |
+|        Atributo        |                               Descrição e motivo da escolha                               | Chave |
+| :--------------------: | :---------------------------------------------------------------------------------------: | :---: |
+|       Id BIGINT        |          Identificador único de cada categoria para registro de cada categoria.           | PK AI |
+|   nome VARCHAR(255)    | Nome da categoria para identificar o nome da categoria em que o produto está relacionado. |  NN   |
+| descricao VARCHAR(255) |                                  Descrição da categoria                                   |  NN   |
 
 ## 🤝Contribuições:
 
