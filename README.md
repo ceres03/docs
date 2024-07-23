@@ -74,13 +74,15 @@
 
 ### Tabela: tb_usuarios
 
-|      Atributo      |                      Descrição e motivo da escolha                      | Chave |
-| :----------------: | :---------------------------------------------------------------------: | :---: |
-|     id BIGINT      |        Identificador do usuário para registro de cada produtor.         | PK AI |
-| nome VARCHAR(255)  |           Registro do nome e identificar o nome do produtor.            |  NN   |
-| email VARCHAR(255) | Para atribuir o email e possibilitar o acesso do produtor a plataforma. |  NN   |
-| senha VARCHAR(255) | Para criar uma senha e possibilitar o acesso do produtor a plataforma.  |  NN   |
-| foto VARCHAR(255)  |          Para identificar e visualizarmos a foto do produtor.           |  NN   |
+|       Atributo        |                      Descrição e motivo da escolha                      | Chave |
+| :-------------------: | :---------------------------------------------------------------------: | :---: |
+|       id BIGINT       |        Identificador do usuário para registro de cada produtor.         | PK AI |
+|   nome VARCHAR(255)   |           Registro do nome e identificar o nome do produtor.            |  NN   |
+|  email VARCHAR(255)   | Para atribuir o email e possibilitar o acesso do produtor a plataforma. |  NN   |
+|  senha VARCHAR(255)   | Para criar uma senha e possibilitar o acesso do produtor a plataforma.  |  NN   |
+|   foto VARCHAR(255)   |          Para identificar e visualizarmos a foto do produtor.           |  NN   |
+| telefone VARCHAR(255) |            Para podermos ligar para o usuário caso precise.             |  NN   |
+|   tipo VARCHAR(255)   |              Para podermos diferenciar o tipo de usuário.               |  NN   |
 
 ### Tabela: tb_categorias
 
@@ -109,6 +111,10 @@ git clone https://github.com/ceres03/frontend.git
 ```
 git clone https://github.com/ceres03/backend.git
 ```
+
+## Métodos API
+
+https://drive.google.com/file/d/1jG756zsE9iijPAONx_oVKrkNAn4PsGKi/view?usp=sharing
 
 ## ❤Membros
 
